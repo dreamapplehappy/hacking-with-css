@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            height: 600px;
+            margin: 60px auto;
+            border: 1px solid black;
+            /* about flex */
+            /* @关于flex-direction */
+            flex-direction: row;
+            /*flex-direction: row-reverse;*/
+            /*flex-direction: column;*/
+            /*flex-direction: column-reverse;*/
+
+            /* @关于flex-wrap*/
+            /*flex-wrap: nowrap;*/
+            /*flex-wrap: wrap;*/
+            /*flex-wrap: wrap-reverse;*/
+
+            /* @关于flex-flow*/
+            /*flex-flow: column nowrap;*/
+
+            /* @关于justify content*/
+            /*justify-content: flex-start;*/
+            /*justify-content: flex-end;*/
+            /*justify-content: center;*/
+            /*justify-content: space-between;*/
+            /*justify-content: space-around;*/
+
+            /* @关于align-items*/
+            /*align-items: flex-start;*/
+            /*align-items: flex-end;*/
+            /*align-items: center;*/
+            /*align-items: stretch;*/
+            /*align-items: baseline;*/
+
+            /* @关于align-content*/
+            /*align-content: flex-start;*/
+            /*align-content: flex-end;*/
+            /*align-content: center;*/
+            /*align-content: stretch;*/
+            /*align-content: space-around;*/
+            /*align-content: space-between;*/
+        }
+        .item {
+            /*height: 100px;*/
+            width: 100px;
+            background-color: red;
+            border: 1px solid black;
+        }
+        .item-1 {
+            height: 200px;
+            font-size: 20px;
+        }
+        .item-3 {
+            order: 8;
+            height: 400px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+    </div>
+
+</body>
+</html>

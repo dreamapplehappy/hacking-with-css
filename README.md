@@ -1,9 +1,10 @@
-### Master CSS From Now!
+## 了不起的CSS
 
-#### 学习的书籍
-+ **CSS Mastery Advanced Web Standards Solutions (Second Edition)**
-    - [x] 第三章: 可视化格式模型
-+ **CSS: The Definitive Guide**
-
-#### 一点一滴
-+ [x] flex布局 [详情](practice/flex-layout/example)
++ [ ] 文章
+    - [ ] [BEM命名法介绍][1]
+    
+    
+    
+    
+    
+[1]:articles/bem-introduce.md    
